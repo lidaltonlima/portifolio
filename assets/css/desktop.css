@@ -1,0 +1,15 @@
+.mobile-menu {
+    display: none;
+}
+
+.nav-list {
+    position: static;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.3s ease-in;
+}
